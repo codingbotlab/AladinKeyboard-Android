@@ -1,0 +1,5 @@
+# Aladin Keyboard — Beta Privacy Notice
+
+This beta stores keyboard learning data locally on the Android device. If the user enables PC sync, learned word counts, learned word-pair counts, and a device identifier are sent to the configured PC on the local network. Beta sync uses plain HTTP and should only be used on a trusted private Wi-Fi network. Voice typing invokes the Android speech-recognition provider; processing behavior depends on that provider and device settings. The app requests microphone access for voice typing and network access for optional local PC sync.
+
+This notice describes the current beta implementation and is not a substitute for a full privacy or store-compliance review. Avoid using this beta for sensitive typing until the privacy and sync behavior has been independently reviewed.
