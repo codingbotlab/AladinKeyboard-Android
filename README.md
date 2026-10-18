@@ -2,15 +2,21 @@
 
 **App ID:** `in.aladin.keyboard`
 
-**Current downloadable build:** `0.1.0-beta.1`
+**Latest cloud-sync test build:** `0.1.2-beta.1` (debug-signed; test only)
+
+**Previous UI test build:** `0.1.1-beta.1` (debug-signed; test only)
+
+**Previous publisher-signed beta:** `0.1.0-beta.1`
 
 **Minimum Android:** 8.0 (API 26)
 
-- [Download the APK](https://github.com/codingbotlab/AladinKeyboard-Android/releases/latest)
+- [Download the Supabase sync test APK](https://github.com/codingbotlab/AladinKeyboard-Android/releases/download/v0.1.2-beta.1/AladinKeyboard-0.1.2-beta.1-SUPABASE-TEST-DEBUG.apk)
+- [Previous UI test APK](https://github.com/codingbotlab/AladinKeyboard-Android/releases/download/v0.1.1-beta.1/AladinKeyboard-0.1.1-beta.1-UI-TEST-DEBUG.apk)
+- [Previous publisher-signed beta](https://github.com/codingbotlab/AladinKeyboard-Android/releases/download/v0.1.0-beta.1/AladinKeyboard-0.1.0-release.apk)
 - [Browse the open-source Android source (MIT License)](https://github.com/codingbotlab/AladinKeyboard)
 - [Read the beta privacy notice](PRIVACY.md)
 
-Aladin Keyboard is a free Android keyboard beta. The source repository is public under the MIT License. The responsive UI improvements are published in source; they are **not yet included in the currently downloadable beta APK** until a new build is successfully produced and verified.
+Aladin Keyboard is a free Android keyboard beta. The source repository is public under the MIT License. The responsive UI and opt-in Supabase learning-count sync changes compile successfully in CI and are included in the latest test APK. **This APK is signed with a temporary CI debug key, not the publisher release key; it may not update an existing installation. Do not uninstall an existing app unless local data is backed up. Cloud sync requires Supabase Anonymous Sign-Ins to be enabled in the project settings and remains off until the user explicitly opts in.**
 
 ## Beta notes
 
